@@ -17,11 +17,11 @@
 
 body {
 	font-family: 'pixel-font', Arial, "Helvetica Neue", Helvetica, sans-serif;
-	transition: background 500ms ease;
 	
-	color: black;
+	
+	color: rgb(255, 255, 255);
 	Font-family: 'pixel-font';
-	background-color: gainsboro;
+	background-color: rgb(0, 0, 0);
 }
 
 p, li {
@@ -33,6 +33,7 @@ p, li {
 
 #left-column {
 	padding: 20px;
+	background-color: rgb(0, 0, 0);
 }
 
 h1, p {
@@ -44,13 +45,79 @@ ul, ol {
 }
 
 img {
-	max-width: 100%;
-	height:  auto;
+	max-width: 20%;
+
+	height:  150px;
+	padding-left: 30px;
+	
+	
 }
 
 a:hover {
 	color: red;  
   }
+ 
+
+
+
+figcaption {
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	vertical-align: top;
+	padding-left: 40px;
+}
+
+h1 {
+	font-family: pixel-font;
+}
+figure {
+	display: flex;
+flex-direction: row;
+padding: 20px;
+
+}
+
+#backp {
+
+	
+	position:fixed;
+	background-color: rgb(0, 0, 0);
+	
+	border-color: white;
+	border-width: 7px;
+	border-style: dashed;
+	width: 100%
+	
+}
+
+#melon {
+	padding-top: 250px;;
+	
+	
+}
+
+#property{
+	font-size: 40px;
+    height: 150px;
+	width: 200px;
+	align-items: center;
+	padding: 30px;
+	border-color: white;
+	border-width: 7px;
+	border-style: dashed;
+}
+
+#use{
+	font-size: 40px;
+    height: 150px;
+	width: 150px;
+	align-items: center;
+	padding: 30px;
+	border-color: white;
+	border-width: 7px;
+	border-style: dashed;
+	padding-left: 50px;
+}
 
 /* uncomment the code below to set the grid */
 
