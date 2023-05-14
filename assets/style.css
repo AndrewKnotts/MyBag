@@ -44,11 +44,40 @@ ul, ol {
 	margin-left: 20px;
 }
 
+#backp {
+
+	
+	left:0px;
+	top:0px;
+	position: fixed;
+	background-color: rgb(0, 0, 0);
+	
+	border-color: white;
+	border-width: 7px;
+	border-style: dashed;
+	width: 100%
+	
+	
+}
+
+#melon {
+	padding-top: 250px;;
+	
+	
+}
+
+
 img {
-	max-width: 20%;
+	max-width: 100%;
 
 	height:  150px;
-	padding-left: 30px;
+	padding-left: 0px;
+	border-color: white;
+	border-width: 7px;
+	border-style: dashed;
+	
+	position:relative;
+	left: 20px;
 	
 	
 }
@@ -77,24 +106,9 @@ padding: 20px;
 
 }
 
-#backp {
 
-	
-	position:fixed;
-	background-color: rgb(0, 0, 0);
-	
-	border-color: white;
-	border-width: 7px;
-	border-style: dashed;
-	width: 100%
-	
-}
 
-#melon {
-	padding-top: 250px;;
-	
-	
-}
+
 
 #property{
 	font-size: 40px;
@@ -102,7 +116,7 @@ padding: 20px;
 	width: 200px;
 	align-items: center;
 	padding: 30px;
-	border-color: white;
+	border-color: rgb(0, 213, 255);
 	border-width: 7px;
 	border-style: dashed;
 }
@@ -118,6 +132,45 @@ padding: 20px;
 	border-style: dashed;
 	padding-left: 50px;
 }
+
+#char{
+	
+	
+	padding: 0px;
+	border-color: rgb(255, 255, 255);
+	border-width: 7px;
+	border-style: solid;
+	width: 130px;
+	height: 195px;
+	position: relative;
+	display: inline-block;
+	
+}
+
+
+
+.char .img-top {
+	display: none;
+	position: absolute;
+    top: 20px;
+    left: 40px;
+    z-index: 99;
+}
+.char:hover .img-top {
+	display: inline;
+}
+
+#face{
+	border-style: solid;
+}
+#bb{
+	position: relative;
+	left:20px;
+}
+
+
+
+
 
 /* uncomment the code below to set the grid */
 
