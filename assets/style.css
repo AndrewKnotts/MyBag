@@ -125,12 +125,15 @@ padding: 20px;
 	font-size: 40px;
     height: 150px;
 	width: 150px;
-	align-items: center;
-	padding: 30px;
+	align-items: start;
+	
+	padding: 50px;
 	border-color: white;
 	border-width: 7px;
 	border-style: dashed;
-	padding-left: 50px;
+	padding-left: 35px;
+	margin-left: auto;
+	margin-right:0;
 }
 
 #char{
