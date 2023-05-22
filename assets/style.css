@@ -77,8 +77,14 @@ img {
 	border-style: dashed;
 	
 	position:relative;
-	left: 20px;
+	left: 20px;	
 	
+}
+
+img:hover {
+	
+	height: 200px;
+	width: auto;
 	
 }
 
